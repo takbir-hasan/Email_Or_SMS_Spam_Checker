@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # 📧 SMS and Email Spam Checker
 
 # 🚀 Overview
