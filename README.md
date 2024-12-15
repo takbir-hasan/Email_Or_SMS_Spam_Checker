@@ -19,20 +19,20 @@ It uses a machine learning model trained on a dataset of messages to classify ne
    python -m venv venv
 
 3. Activate the virtual environment:
- # On Windows:
+ ** On Windows:**
    venv\Scripts\activate
- # On macOS/Linux:
+ ** On macOS/Linux:**
    source venv/bin/activate
 
 4. Install dependencies:
    pip install -r requirements.txt'
 
 # ▶️ Running the App
-\nTo run the app:
+To run the app:
 streamlit run app.py
 
 # 🧠 How It Works
-\nHow It Works:
+How It Works:
 1. Preprocessing: Tokenization, stopword removal, and TF-IDF vectorization.
 2. Model: Uses the MultinomialNB classifier.
 3. Prediction: Displays whether the message is spam or not.
