@@ -1,9 +1,9 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import pickle
 import string
-from nltk.corpus import stopwords
-import nltk
-from nltk.stem.porter import PorterStemmer
+from nltk.corpus import stopwords # type: ignore
+import nltk # type: ignore
+from nltk.stem.porter import PorterStemmer # type: ignore
 
 ps = PorterStemmer()
 
