@@ -19,9 +19,9 @@ It uses a machine learning model trained on a dataset of messages to classify ne
    python -m venv venv
 
 3. Activate the virtual environment:
-   **On Windows:**
+  - **On Windows:**
    venv\Scripts\activate
-   **On macOS/Linux:**
+  - **On macOS/Linux:**
    source venv/bin/activate
 
 5. Install dependencies:
